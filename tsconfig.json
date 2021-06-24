@@ -1,0 +1,14 @@
+{
+  "compilerOptions":{
+    "target": "es2017",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "lib": ["ESNext"],
+    "strict": true,
+    "strictNullChecks": true,
+    "types": [
+      "nuxt-i18n"
+    ]
+  }
+}
