@@ -27,7 +27,7 @@ In components, you import `useI18n` from `nuxt-i18n-composable`.
 </template>
 
 <script>
-import { defineComponent, computed } from '@vue/composition-api'
+import { defineComponent, computed } from '@nuxtjs/composition-api'
 import { useI18n } from 'nuxt-i18n-composable'
 
 export default defineComponent({
@@ -38,7 +38,7 @@ export default defineComponent({
     return {
       ...useI18n(),
       language,
-      // i18n.locale can be used as simple writable computed
+      // i18n.locale can be used as writable computed to modify locale
       changeLanguage() {
         i18n.locale.value = 'en';
       }
@@ -46,6 +46,16 @@ export default defineComponent({
   }
 })
 </script>
+<i18n>
+{
+  "en": {
+    "language": "English"
+  },
+  "de": {
+    "language": "Deutsch"
+  }
+}
+</i18n>
 ```
 
 ## Tips
@@ -58,7 +68,6 @@ const { app } = useContext();
 const locales = app.i18n.locales;
 </script>
 ```
-
 
 ## 📄 License
 
