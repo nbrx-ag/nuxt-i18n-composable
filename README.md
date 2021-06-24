@@ -1,4 +1,4 @@
-# vue-i18n-composable
+# nuxt-i18n-composable
 
 Composition API for `nuxt-i18n` in Nuxt 2.x
 
