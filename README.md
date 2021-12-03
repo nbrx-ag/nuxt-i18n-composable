@@ -1,6 +1,6 @@
 # nuxt-i18n-composable
 
-Composition API for `nuxt-i18n` in Nuxt 2.x
+Composition API for `@nuxtjs/i18n` in Nuxt 2.x
 
 <a href="https://www.npmjs.com/package/nuxt-i18n-composable">
 <img alt="npm" src="https://img.shields.io/npm/v/nuxt-i18n-composable">
@@ -9,15 +9,17 @@ Composition API for `nuxt-i18n` in Nuxt 2.x
 Use this package to make use of the [composition API](https://composition-api.nuxtjs.org/) while using Nuxt 2.x.
 This is heavily inspired by [vue-i18n-composable](https://github.com/intlify/vue-i18n-composable) (by [Anthony Fu](https://github.com/antfu)) and should only be used until there is an official solution by [nuxt-i18n](https://github.com/nuxt-community/i18n-module).
 
+*If you have to use `nuxt-i18n` (which got deprecated), please use version 0.1.1 of this package.*
+
 ## Install
 
 <pre>
-npm i nuxt-i18n <b>nuxt-i18n-composable</b> @nuxtjs/composition-api
+npm i @nuxtjs/i18n <b>nuxt-i18n-composable</b> @nuxtjs/composition-api
 </pre>
 
 ## Usage
 
-Simply configure nuxt-i18n as usual.
+Simply configure @nuxtjs/i18n as usual.
 
 In components, you import `useI18n` from `nuxt-i18n-composable`.
 

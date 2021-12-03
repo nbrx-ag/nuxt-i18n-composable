@@ -8,7 +8,7 @@
     "strict": true,
     "strictNullChecks": true,
     "types": [
-      "nuxt-i18n"
+      "@nuxtjs/i18n"
     ]
   }
 }
